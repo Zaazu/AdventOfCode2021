@@ -8,7 +8,6 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Environment.CurrentDirectory);
             string[] inputText = File.ReadAllLines(Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName + "\\input.txt");
             List<int> input = new();
 
