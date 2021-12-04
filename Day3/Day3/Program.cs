@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 
-namespace DayThree
+namespace Day3
 {
     class Program
     {
@@ -131,7 +131,7 @@ namespace DayThree
                 }
             }
             int co2Rating = Convert.ToInt32(inputList[0], 2);
-            Console.WriteLine($"\nPart Two One:\n" +
+            Console.WriteLine($"\nPart Two:\n" +
                   $"Oxygen Rating: {oxygenRating}\n" +
                   $"CO2 Rating: {co2Rating}\n" +
                   $"Power Consumption: {oxygenRating * co2Rating}");
